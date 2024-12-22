@@ -1,0 +1,1 @@
+Es una página de cartas Magic: The Gathering para comprar estas mismas cartas

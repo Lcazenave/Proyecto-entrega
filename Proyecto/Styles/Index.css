@@ -1,0 +1,156 @@
+body{
+    background-color: azure;
+}
+.header{
+    background-color: antiquewhite;
+    grid-area: header;
+}
+
+
+.presentacion{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: Sour Gummy;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+
+.lista_header{
+    list-style: none;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: Sour Gummy;
+    padding: 10px;
+    box-shadow: 0 4px 8px black;
+}
+
+.footer{
+    background-color: antiquewhite;
+    grid-area: footer;
+
+}
+
+.f_footer{
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px black;
+}
+
+
+.redes{
+    list-style: none;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: antiquewhite;
+}
+
+.formulario{
+    background-color: antiquewhite;
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px black;
+}
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    height: auto;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar productos"
+    "footer footer";
+    grid-template-columns: auto 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    height: 100%;
+
+}
+
+.productos{
+    grid-area: productos;
+}
+
+.ofertas_flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.ofertas{
+    background-color: antiquewhite;
+    justify-content: center;
+    text-align: center;
+    width: 10%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px black;
+    box-sizing: border-box;
+}
+
+.ofertas img{
+    max-width: 100%;
+}
+
+.ofertas h4{
+    color: red;
+    font-size: 1rem;
+    font-family: Sour Gummy;
+}
+
+.ofertas p{
+    color: green;
+    font-size: 1rem;
+    font-family: Sour Gummy;
+}
+
+.ofertas button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width: 1300px){
+    .ofertas{
+        background-color: antiquewhite;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-shadow: 0 4px 8px black;
+        box-sizing: border-box;
+    }    
+}
+
+
+.container-fluid{
+    background-color: antiquewhite;
+    box-shadow: 0 4px 8px black;
+    font-family: Sour Gummy;
+}
